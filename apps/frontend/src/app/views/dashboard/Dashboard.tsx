@@ -15,7 +15,7 @@ export const Dashboard: React.FC<IDashboardProps> = (
   } = useStore();
   return (
     <div>
-      <h1>Welcome to dashboard!</h1>
+      <h1 className="bg-red-100 text-white">Welcome to dashboard!</h1>
       <strong>{name}</strong>
       <Link to="/profile">Navigate to user profile</Link>
     </div>
