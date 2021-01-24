@@ -1,0 +1,7 @@
+[build]
+  publish = "dist/apps/frontend"
+  command = "npx nx build frontend --prod"
+[[redirects]]
+  from="/*"
+  to="/index.html"
+  status=200
