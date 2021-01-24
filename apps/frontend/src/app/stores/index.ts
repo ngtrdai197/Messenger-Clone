@@ -14,7 +14,6 @@ export const StoreContext = createContext<IStore>(null);
 
 export const useStore = () => {
   const store = useContext(StoreContext);
-  console.log('store :>> ', store);
   if (!store) throw new Error('useStore must be used within a StoreProvider.');
   return store;
 };
