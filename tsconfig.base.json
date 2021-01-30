@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@app/*": ["./apps/frontend/src/*"]
+      "@app/*": ["./apps/frontend/src/*"],
+      "@messenger/interfaces": ["libs/interfaces/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
